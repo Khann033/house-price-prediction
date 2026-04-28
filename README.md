@@ -1,22 +1,22 @@
-# 🏠 House Price Prediction — Machine Learning Project
+#  House Price Prediction — Machine Learning Project
 
 A complete, professional end-to-end machine learning project that predicts house prices using Python and scikit-learn. Built as a Fiverr portfolio project to demonstrate real-world ML skills.
 
 ---
 
-## 📊 Results
+##  Results
 
 | Model | R² Score | MAE | RMSE |
 |---|---|---|---|
 | Linear Regression | 0.812 | $38,412 | $62,122 |
-| **Random Forest ✅** | **0.954** | **$24,151** | **$30,621** |
+| **Random Forest ** | **0.954** | **$24,151** | **$30,621** |
 | Gradient Boosting | 0.954 | $24,991 | $30,809 |
 
 **Winner: Random Forest** — explains **95.4%** of price variance with an average error of only **$24,151**.
 
 ---
 
-## 📈 Charts
+##  Charts
 
 ### Model Comparison
 ![Model Comparison](outputs/model_comparison.png)
@@ -29,7 +29,7 @@ A complete, professional end-to-end machine learning project that predicts house
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 house-price-prediction/
@@ -53,7 +53,7 @@ house-price-prediction/
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 ### 1. Clone the repository
 ```bash
@@ -78,7 +78,7 @@ jupyter notebook notebooks/house_price_prediction.ipynb
 
 ---
 
-## 🔄 ML Pipeline — Step by Step
+##  ML Pipeline — Step by Step
 
 ```
 Raw Data → EDA → Feature Engineering → Train/Test Split → 
@@ -98,7 +98,7 @@ Model Training → Evaluation → Best Model → Prediction
 
 ---
 
-## 🧠 Features Used
+## Features Used
 
 | Feature | Type | Description |
 |---|---|---|
@@ -116,7 +116,7 @@ Model Training → Evaluation → Best Model → Prediction
 
 ---
 
-## 💡 Key Findings
+## Key Findings
 
 - **Median income** is by far the strongest predictor (95% feature importance)
 - Tree-based models (Random Forest, Gradient Boosting) massively outperform Linear Regression
@@ -125,7 +125,7 @@ Model Training → Evaluation → Best Model → Prediction
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Python 3.10+**
 - **pandas** — data loading and manipulation
@@ -135,7 +135,7 @@ Model Training → Evaluation → Best Model → Prediction
 
 ---
 
-## 🚀 Want to Use Real Data?
+## Want to Use Real Data?
 
 Replace the CSV loading with the real California Housing dataset:
 
@@ -147,7 +147,7 @@ df = housing.frame
 
 ---
 
-## 👨‍💻 About
+## About
 
 Built by [Your Name] — available for freelance ML projects on Fiverr.
 
@@ -161,6 +161,6 @@ Built by [Your Name] — available for freelance ML projects on Fiverr.
 
 ---
 
-## 📄 License
+## License
 
 MIT License — free to use and modify.
